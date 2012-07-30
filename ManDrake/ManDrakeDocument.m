@@ -171,7 +171,14 @@
     return dict;
 }
 
+- (IBAction)makeTextLarger:(id)sender;
+{
+    [NSException raise:@"Not Implemented" format:@"%s", __FUNCTION__];
+}
 
-
+- (IBAction)makeTextSmaller:(id)sender;
+{
+    [NSException raise:@"Not Implemented" format:@"%s", __FUNCTION__];
+}
 
 @end

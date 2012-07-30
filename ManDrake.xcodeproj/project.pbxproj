@@ -111,7 +111,9 @@
 				F487F4AA141EADEF0093D633 /* Frameworks */,
 				F487F4A8141EADEF0093D633 /* Products */,
 			);
+			indentWidth = 4;
 			sourceTree = "<group>";
+			tabWidth = 4;
 		};
 		F487F4A8141EADEF0093D633 /* Products */ = {
 			isa = PBXGroup;
