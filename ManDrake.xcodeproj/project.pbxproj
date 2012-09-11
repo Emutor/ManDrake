@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D459EED215FEFDD40029116D /* About.txt in Resources */ = {isa = PBXBuildFile; fileRef = D459EED115FEFDD30029116D /* About.txt */; };
+		D459EED415FEFECE0029116D /* About.txt in Resources */ = {isa = PBXBuildFile; fileRef = D459EED315FEFECE0029116D /* About.txt */; };
+		D459EED615FF01620029116D /* About.txt in Resources */ = {isa = PBXBuildFile; fileRef = D459EED515FF01620029116D /* About.txt */; };
 		D471A84215C70B6F00E307D0 /* ManDrake.iconset in Resources */ = {isa = PBXBuildFile; fileRef = D471A84115C70B6F00E307D0 /* ManDrake.iconset */; };
 		F487F4AC141EADEF0093D633 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F487F4AB141EADEF0093D633 /* Cocoa.framework */; };
 		F487F4B8141EADEF0093D633 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F487F4B7141EADEF0093D633 /* main.m */; };
@@ -38,6 +41,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D459EED115FEFDD30029116D /* About.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = About.txt; sourceTree = "<group>"; };
+		D459EED315FEFECE0029116D /* About.txt */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = text; path = About.txt; sourceTree = "<group>"; tabWidth = 2; };
+		D459EED515FF01620029116D /* About.txt */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = text; path = About.txt; sourceTree = "<group>"; tabWidth = 2; };
 		D471A84115C70B6F00E307D0 /* ManDrake.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = ManDrake.iconset; path = Resources/ManDrake.iconset; sourceTree = "<group>"; };
 		F487F4A7141EADEF0093D633 /* ManDrake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManDrake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F487F4AB141EADEF0093D633 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -186,6 +192,7 @@
 				F487F4E3141EAEA10093D633 /* NoodleLineNumberMarker.m */,
 				F487F4E4141EAEA10093D633 /* NoodleLineNumberView.h */,
 				F487F4E5141EAEA10093D633 /* NoodleLineNumberView.m */,
+				D459EED515FF01620029116D /* About.txt */,
 			);
 			path = LineNumbering;
 			sourceTree = "<group>";
@@ -211,6 +218,7 @@
 				F487F4F9141EAEAC0093D633 /* UKSyntaxColoredTextViewController.m */,
 				F487F4FA141EAEAC0093D633 /* UKTextDocGotoBox.h */,
 				F487F4FB141EAEAC0093D633 /* UKTextDocGoToBox.m */,
+				D459EED315FEFECE0029116D /* About.txt */,
 			);
 			path = UKSyntaxColoredTextDocument;
 			sourceTree = "<group>";
@@ -223,6 +231,7 @@
 				F487F53B141EDD560093D633 /* Makefile */,
 				F487F53C141EDD560093D633 /* Makefile.postamble */,
 				F487F53D141EDD560093D633 /* Makefile.preamble */,
+				D459EED115FEFDD30029116D /* About.txt */,
 			);
 			path = cat2html;
 			sourceTree = "<group>";
@@ -253,7 +262,7 @@
 		F487F49E141EADEF0093D633 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0410;
+				LastUpgradeCheck = 0440;
 			};
 			buildConfigurationList = F487F4A1141EADEF0093D633 /* Build configuration list for PBXProject "ManDrake" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -288,6 +297,9 @@
 				F487F542141EDD560093D633 /* Makefile.preamble in Resources */,
 				F487F544141EDE590093D633 /* ManDocument.icns in Resources */,
 				D471A84215C70B6F00E307D0 /* ManDrake.iconset in Resources */,
+				D459EED215FEFDD40029116D /* About.txt in Resources */,
+				D459EED415FEFECE0029116D /* About.txt in Resources */,
+				D459EED615FF01620029116D /* About.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +378,7 @@
 		F487F4C9141EADEF0093D633 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ManDrake/ManDrake-Prefix.pch";
 				INFOPLIST_FILE = "ManDrake/ManDrake-Info.plist";
@@ -378,6 +391,7 @@
 		F487F4CA141EADEF0093D633 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ManDrake/ManDrake-Prefix.pch";
 				INFOPLIST_FILE = "ManDrake/ManDrake-Info.plist";
